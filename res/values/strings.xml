@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vagomatic</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- main_view -->
+    <string name="btn_conectar">Conectar</string>
+    <string name="uno">huehehe</string>
+    <string name="et_ip">IP</string>
+    <string name="et_port">Puerto</string>
+    <string name="waiting_message">Espere&#8230;</string>
+    <string name="fill_all">Rellene todos los campos</string>
+    
+    <!-- OptionsActivity -->
+    <string name="list_item_one">Apagado remoto</string>
+    <string name="list_item_two">Ratón remoto</string>
+    <string name="list_item_three">Control remoto</string>
+    <string name="description__list_item_one">Apaga el ordenador desde el móvil</string>
+    <string name="description__list_item_two">Mueve el ratón desde el móvil</string>
+    <string name="description__list_item_three">Controla el ordenador con el móvil en cualquier lugar</string>
+
+</resources>

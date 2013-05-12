@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bkg_main_view" >
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <Button 
+            android:id="@+id/powerOff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            style="@style/ButtonBar"/>
+        
+        <Button 
+            android:id="@+id/suspend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            style="@style/ButtonBar"/>
+        
+    </TableRow>
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <Button 
+            android:id="@+id/reboot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            style="@style/ButtonBar"/>
+        
+        <Button 
+            android:id="@+id/disconnectServer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            style="@style/ButtonBar"/>
+        
+    </TableRow>
+
+</TableLayout>

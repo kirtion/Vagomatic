@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bkg_main_view"
+    tools:context=".MainActivity" >
+    
+    <FrameLayout 
+        android:id="@+id/first_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:fitsSystemWindows="true" >
+        
+        <LinearLayout
+            android:id="@+id/linear_layout_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+            
+            <Button 
+                android:id="@+id/btn_list_servers"
+            	android:background="@drawable/border"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+            	android:minHeight="40dp"
+                android:layout_weight="1"
+                android:text="@string/uno"
+                android:textColor="@color/txt_btns"
+                style="@style/ButtonBar" />
+            
+            <Button 
+                android:id="@+id/idnwbi1"
+            	android:background="@drawable/border"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+            	android:minHeight="40dp"
+                android:layout_weight="1"
+                android:text="@string/uno"
+                android:textColor="@color/txt_btns"
+                style="@style/ButtonBar" />
+            
+            <Button  
+                android:id="@+id/idnwbi2"
+            	android:background="@drawable/border"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+            	android:minHeight="40dp"
+                android:layout_weight="1"
+                android:text="@string/uno"
+                android:textColor="@color/txt_btns"
+                style="@style/ButtonBar"/>
+            
+        </LinearLayout>
+        
+    </FrameLayout>
+    
+    <FrameLayout
+        android:id="@+id/second_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="60dp"
+        android:fitsSystemWindows="true" >
+        
+	    <LinearLayout 
+	        android:id="@+id/linear_layout_two"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        tools:ignore="UselessParent" >
+	        
+	        <EditText 
+	            android:id="@+id/et_ip"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:maxLines="1"
+	            android:maxLength="15"
+	            android:inputType="phone"
+	            android:text="192.168.1.28"
+	            android:hint="@string/et_ip" />
+	        
+	        <EditText 
+	            android:id="@+id/et_port"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.5"
+	            android:maxLines="1"
+	            android:maxLength="5"
+	            android:inputType="number"
+	            android:text="9512"
+	            android:hint="@string/et_port" />
+	        
+	    </LinearLayout>
+	    
+	</FrameLayout>
+	
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="120dp"
+        android:fitsSystemWindows="true">
+	    
+        <TextView
+            android:id="@+id/tv_log"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:textIsSelectable="false" />
+        
+    </FrameLayout>
+	
+	<FrameLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+	    android:fitsSystemWindows="true"
+	    tools:ignore="UselessParent" >
+	    
+	   	<LinearLayout 
+	        android:id="@+id/linear_layout_three"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="bottom|center_horizontal"
+	        android:orientation="horizontal" >
+	        
+	        <Button
+	            android:id="@+id/btn_connect"
+	       		android:background="@color/btns"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:minHeight="60dp"
+	            android:layout_weight="1"
+	       		android:text="@string/btn_conectar"
+	       		android:textColor="@color/txt_btns"
+	       		android:textSize="30sp"
+	       		android:textStyle="bold"
+	            style="@style/ButtonBar" />
+	        
+	    </LinearLayout>
+	    
+	</FrameLayout>
+
+</RelativeLayout>
